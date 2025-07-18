@@ -48,7 +48,7 @@ public class CategoryTest {
     }
 
     @Test
-    public void saveNotExistsCategoryIdShouldInsert() {
+    public void saveNotExistsCategoryIdShouldInsert() throws CategoryException {
 
         CategoryDto categoryDto = new CategoryDto();
         categoryDto.setName(CATEGORY_NAME);
@@ -63,7 +63,7 @@ public class CategoryTest {
     }
 
     @Test
-    public void saveExistsCategoryIdShouldUpdate() {
+    public void saveExistsCategoryIdShouldUpdate() throws CategoryException {
 
         CategoryDto categoryDto = new CategoryDto();
         categoryDto.setName(CATEGORY_NAME);

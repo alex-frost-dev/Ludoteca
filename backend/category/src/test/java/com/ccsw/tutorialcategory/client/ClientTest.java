@@ -55,7 +55,7 @@ public class ClientTest {
      * {@code save()} un {@code Client} con nombre único ha de guardarlo correctamente.
      */
     @Test
-    public void saveWithUniqueNameShouldSave() {
+    public void saveWithUniqueNameShouldSave() throws ClientException {
         ClientDto clientDto = new ClientDto();
         clientDto.setName(CLIENT_NAME);
 
@@ -72,17 +72,16 @@ public class ClientTest {
      * {@code save()} un {@code Client} con un {@code name} ya existente en la BBDD ha de devolver un {@code ClientException.NAME_ALREADY_EXISTS}.
      */
     @Test
-    public void saveWhenSameNameExistsShouldReturnClientNameError() {
+    public void saveWhenSameNameExistsShouldReturnClientNameError() throws ClientException {
         ClientDto firstClientDto = new ClientDto();
         firstClientDto.setName(CLIENT_NAME);
 
         ClientDto existentClientDto = new ClientDto();
         existentClientDto.setName(CLIENT_NAME);
 
-
         // Configura para que el primer 'save()' se comporte distinto al segundo.
         when(clientRepository.findAll(any(Specification.class))).thenReturn(Collections.emptyList())  // Para el primer 'save()' ('name' no existe) devuelve una empty list.
-                .thenReturn(List.of(new Client(){{ // Para el primer 'save()' ('name' ahora existe) devuelve una 'List' de 'Client's.
+                .thenReturn(List.of(new Client() {{ // Para el primer 'save()' ('name' ahora existe) devuelve una 'List' de 'Client's.
                     setId(EXISTENT_CLIENT_ID + 1);
                 }}));
 
@@ -101,7 +100,7 @@ public class ClientTest {
      * ha de devolver un {@code StatusResponse.OK_REQUEST_MSG}.
      */
     @Test
-    public void saveWhenSameNameExistsShouldContinue() {
+    public void saveWhenSameNameExistsShouldContinue() throws ClientException {
         ClientDto firstClientDto = new ClientDto();
         firstClientDto.setId(EXISTENT_CLIENT_ID);
         firstClientDto.setName(CLIENT_NAME);
@@ -110,10 +109,9 @@ public class ClientTest {
         existentClientDto.setId(EXISTENT_CLIENT_ID);
         existentClientDto.setName(CLIENT_NAME);
 
-
         // Configura para que el primer 'save()' se comporte distinto al segundo.
         when(clientRepository.findAll(any(Specification.class))).thenReturn(Collections.emptyList())  // Para el primer 'save()' ('name' no existe) devuelve una empty list.
-                .thenReturn(List.of(new Client(){{ // Para el primer 'save()' ('name' ahora existe) devuelve una 'List' de 'Client's.
+                .thenReturn(List.of(new Client() {{ // Para el primer 'save()' ('name' ahora existe) devuelve una 'List' de 'Client's.
                     setId(EXISTENT_CLIENT_ID);
                 }}));
 
@@ -143,7 +141,7 @@ public class ClientTest {
      * {@code delete()} un {@code Client} que no existe ha de devolver un {@code ClientException.CLIENT_ID_NOT_FOUND}.
      */
     @Test
-    public void deleteClienteNotExistsShouldReturnClientNotFound() {
+    public void deleteClienteNotExistsShouldReturnClientNotFound() throws ClientException {
         StatusResponse response = clientService.delete(NON_EXISTENT_CLIENT_ID);
         assertEquals(response.getMessage(), ClientException.CLIENT_ID_NOT_FOUND);
     }

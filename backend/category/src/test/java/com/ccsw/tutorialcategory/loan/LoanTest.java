@@ -1,11 +1,11 @@
-package com.ccsw.tutorialcategory.loan;
+package com.ccsw.ludoteca.loan;
 
-import com.ccsw.tutorialcategory.client.model.Client;
-import com.ccsw.tutorialcategory.exception.GlobalExceptionHandler;
-import com.ccsw.tutorialcategory.dto.StatusResponse;
-import com.ccsw.tutorialcategory.game.model.Game;
-import com.ccsw.tutorialcategory.loan.model.Loan;
-import com.ccsw.tutorialcategory.loan.model.LoanDto;
+import com.ccsw.ludoteca.client.model.Client;
+import com.ccsw.ludoteca.dto.StatusResponse;
+import com.ccsw.ludoteca.exception.CommonErrorResponse;
+import com.ccsw.ludoteca.game.model.Game;
+import com.ccsw.ludoteca.loan.model.Loan;
+import com.ccsw.ludoteca.loan.model.LoanDto;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
@@ -16,7 +16,8 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.mockito.Mockito.*;
 
 @ExtendWith(MockitoExtension.class)
@@ -50,7 +51,7 @@ public class LoanTest {
      * {@code save()} un {@code Loan} debería guardar.
      */
     @Test
-    public void saveValidLoanShouldSave() {
+    public void saveValidLoanShouldSave() throws LoanException {
         // Arrange
         Client mockClient = mock(Client.class);
         Game mockGame = mock(Game.class);
@@ -84,14 +85,13 @@ public class LoanTest {
      * {@code save()} un {@code Loan} sin alguno de los datos debería devolver error.
      */
     @Test
-    public void saveInvalidLoanShouldReturnError() {
+    public void saveInvalidLoanShouldReturnError() throws LoanException {
         // Arrange
         Client mockClient = mock(Client.class);
         Game mockGame = mock(Game.class);
 
         LocalDate startDate = LocalDate.now();
         LocalDate endDate = startDate.plusDays(4);
-
 
         LoanDto loanDto1 = new LoanDto(); // Sin Client
         loanDto1.setGame(mockGame);
@@ -113,9 +113,9 @@ public class LoanTest {
         loanDto4.setGame(mockGame);
         loanDto4.setEndDate(endDate);
 
-        assertEquals(GlobalExceptionHandler.MISSING_REQUIRED_FIELDS, loanService.save(loanDto1).getMessage());
-        assertEquals(GlobalExceptionHandler.MISSING_REQUIRED_FIELDS, loanService.save(loanDto2).getMessage());
-        assertEquals(GlobalExceptionHandler.MISSING_REQUIRED_FIELDS, loanService.save(loanDto3).getMessage());
-        assertEquals(GlobalExceptionHandler.MISSING_REQUIRED_FIELDS, loanService.save(loanDto4).getMessage());
+        assertEquals(CommonErrorResponse.MISSING_REQUIRED_FIELDS, loanService.save(loanDto1).getMessage());
+        assertEquals(CommonErrorResponse.MISSING_REQUIRED_FIELDS, loanService.save(loanDto2).getMessage());
+        assertEquals(CommonErrorResponse.MISSING_REQUIRED_FIELDS, loanService.save(loanDto3).getMessage());
+        assertEquals(CommonErrorResponse.MISSING_REQUIRED_FIELDS, loanService.save(loanDto4).getMessage());
     }
 }
