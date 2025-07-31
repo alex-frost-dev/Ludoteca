@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="dc.created" content="2025-07-01">
-<meta name="description" content="declaration: package: com.ccsw.ludoteca.game, interface: GameService">
+<meta name="description" content="declaration: package: com.ccsw.tutorialcategory.game, interface: GameService">
 <meta name="generator" content="javadoc/ClassWriterImpl">
 <link rel="stylesheet" type="text/css" href="../../../../stylesheet.css" title="Style">
 <link rel="stylesheet" type="text/css" href="../../../../script-dir/jquery-ui.min.css" title="Style">
@@ -82,13 +82,13 @@ loadScripts(document, 'script');</script>
 <main role="main">
 <!-- ======== START OF CLASS DATA ======== -->
 <div class="header">
-<div class="sub-title"><span class="package-label-in-type">Package</span>&nbsp;<a href="package-summary.html">com.ccsw.ludoteca.game</a></div>
+<div class="sub-title"><span class="package-label-in-type">Package</span>&nbsp;<a href="package-summary.html">com.ccsw.tutorialcategory.game</a></div>
 <h1 title="Interface GameService" class="title">Interface GameService</h1>
 </div>
 <section class="class-description" id="class-description">
 <dl class="notes">
 <dt>All Known Implementing Classes:</dt>
-<dd><code><a href="GameServiceImpl.html" title="class in com.ccsw.ludoteca.game">GameServiceImpl</a></code></dd>
+<dd><code><a href="GameServiceImpl.html" title="class in com.ccsw.tutorialcategory.game">GameServiceImpl</a></code></dd>
 </dl>
 <hr>
 <div class="type-signature"><span class="modifiers">public interface </span><span class="element-name type-name-label">GameService</span></div>
@@ -106,15 +106,15 @@ loadScripts(document, 'script');</script>
 <div class="table-header col-first">Modifier and Type</div>
 <div class="table-header col-second">Method</div>
 <div class="table-header col-last">Description</div>
-<div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a><wbr>&lt;<a href="model/Game.html" title="class in com.ccsw.ludoteca.game.model">Game</a>&gt;</code></div>
+<div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a><wbr>&lt;<a href="model/Game.html" title="class in com.ccsw.tutorialcategory.game.model">Game</a>&gt;</code></div>
 <div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code><a href="#find(java.lang.String,java.lang.Long)" class="member-name-link">find</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;title,
  <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Long.html" title="class or interface in java.lang" class="external-link">Long</a>&nbsp;idCategory)</code></div>
 <div class="col-last even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3">
 <div class="block">Recupera los juegos filtrando opcionalmente por título y/o categoría</div>
 </div>
-<div class="col-first odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code><a href="../dto/StatusResponse.html" title="class in com.ccsw.ludoteca.dto">StatusResponse</a></code></div>
+<div class="col-first odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code><a href="../dto/StatusResponse.html" title="class in com.ccsw.tutorialcategory.dto">StatusResponse</a></code></div>
 <div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code><a href="#save(java.lang.Long,com.ccsw.ludoteca.game.model.GameDto)" class="member-name-link">save</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Long.html" title="class or interface in java.lang" class="external-link">Long</a>&nbsp;id,
- <a href="model/GameDto.html" title="class in com.ccsw.ludoteca.game.model">GameDto</a>&nbsp;dto)</code></div>
+ <a href="model/GameDto.html" title="class in com.ccsw.tutorialcategory.game.model">GameDto</a>&nbsp;dto)</code></div>
 <div class="col-last odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3">
 <div class="block">Guarda o modifica un juego, dependiendo de si el identificador está o no informado
  Devolverá un @{code StatusResponse} con error si falta cualquiera de los cambos.</div>
@@ -136,7 +136,7 @@ loadScripts(document, 'script');</script>
 <li>
 <section class="detail" id="find(java.lang.String,java.lang.Long)">
 <h3>find</h3>
-<div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a>&lt;<a href="model/Game.html" title="class in com.ccsw.ludoteca.game.model">Game</a>&gt;</span>&nbsp;<span class="element-name">find</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;title,
+<div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a>&lt;<a href="model/Game.html" title="class in com.ccsw.tutorialcategory.game.model">Game</a>&gt;</span>&nbsp;<span class="element-name">find</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;title,
  <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Long.html" title="class or interface in java.lang" class="external-link">Long</a>&nbsp;idCategory)</span></div>
 <div class="block">Recupera los juegos filtrando opcionalmente por título y/o categoría</div>
 <dl class="notes">
@@ -144,15 +144,15 @@ loadScripts(document, 'script');</script>
 <dd><code>title</code> - título del juego</dd>
 <dd><code>idCategory</code> - PK de la categoría</dd>
 <dt>Returns:</dt>
-<dd><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link"><code>List</code></a> de <a href="model/Game.html" title="class in com.ccsw.ludoteca.game.model"><code>Game</code></a></dd>
+<dd><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link"><code>List</code></a> de <a href="model/Game.html" title="class in com.ccsw.tutorialcategory.game.model"><code>Game</code></a></dd>
 </dl>
 </section>
 </li>
 <li>
 <section class="detail" id="save(java.lang.Long,com.ccsw.ludoteca.game.model.GameDto)">
 <h3>save</h3>
-<div class="member-signature"><span class="return-type"><a href="../dto/StatusResponse.html" title="class in com.ccsw.ludoteca.dto">StatusResponse</a></span>&nbsp;<span class="element-name">save</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Long.html" title="class or interface in java.lang" class="external-link">Long</a>&nbsp;id,
- <a href="model/GameDto.html" title="class in com.ccsw.ludoteca.game.model">GameDto</a>&nbsp;dto)</span></div>
+<div class="member-signature"><span class="return-type"><a href="../dto/StatusResponse.html" title="class in com.ccsw.tutorialcategory.dto">StatusResponse</a></span>&nbsp;<span class="element-name">save</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Long.html" title="class or interface in java.lang" class="external-link">Long</a>&nbsp;id,
+ <a href="model/GameDto.html" title="class in com.ccsw.tutorialcategory.game.model">GameDto</a>&nbsp;dto)</span></div>
 <div class="block">Guarda o modifica un juego, dependiendo de si el identificador está o no informado
  Devolverá un @{code StatusResponse} con error si falta cualquiera de los cambos.</div>
 <dl class="notes">
@@ -160,7 +160,7 @@ loadScripts(document, 'script');</script>
 <dd><code>id</code> - PK de la entidad</dd>
 <dd><code>dto</code> - datos de la entidad</dd>
 <dt>Returns:</dt>
-<dd>ResponseEntity - Respuesta <a href="../dto/StatusResponse.html" title="class in com.ccsw.ludoteca.dto"><code>StatusResponse</code></a> del servidor.</dd>
+<dd>ResponseEntity - Respuesta <a href="../dto/StatusResponse.html" title="class in com.ccsw.tutorialcategory.dto"><code>StatusResponse</code></a> del servidor.</dd>
 </dl>
 </section>
 </li>

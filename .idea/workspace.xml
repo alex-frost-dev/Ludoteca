@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e7ee5dc9-0af8-48a6-93d1-7a617400e1e9" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/backend/docs/allclasses-index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/allpackages-index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/com/ccsw/ludoteca/LudotecaApplication.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/com/ccsw/ludoteca/author/AuthorController.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/com/ccsw/ludoteca/author/AuthorException.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/com/ccsw/ludoteca/author/AuthorGameHelperService.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/com/ccsw/ludoteca/author/AuthorIT.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/com/ccsw/ludoteca/author/AuthorRepository.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/com/ccsw/ludoteca/author/AuthorService.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/com/ccsw/ludoteca/author/AuthorServiceImpl.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/com/ccsw/ludoteca/author/AuthorTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/com/ccsw/ludoteca/author/model/Author.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/com/ccsw/ludoteca/author/model/AuthorDto.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/com/ccsw/ludoteca/author/model/AuthorSearchDto.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/com/ccsw/ludoteca/author/model/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/com/ccsw/ludoteca/author/model/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/com/ccsw/ludoteca/author/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/com/ccsw/ludoteca/author/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/com/ccsw/ludoteca/category/CategoryController.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/com/ccsw/ludoteca/category/CategoryException.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/com/ccsw/ludoteca/category/CategoryGameHelperService.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/com/ccsw/ludoteca/category/CategoryIT.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/com/ccsw/ludoteca/category/CategoryRepository.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/com/ccsw/ludoteca/category/CategoryService.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/com/ccsw/ludoteca/category/CategoryServiceImpl.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/com/ccsw/ludoteca/category/CategoryTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/com/ccsw/ludoteca/category/model/Category.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/com/ccsw/ludoteca/category/model/CategoryDto.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/com/ccsw/ludoteca/category/model/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/com/ccsw/ludoteca/category/model/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/com/ccsw/ludoteca/category/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/com/ccsw/ludoteca/category/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/com/ccsw/ludoteca/client/ClientController.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/com/ccsw/ludoteca/client/ClientException.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/com/ccsw/ludoteca/client/ClientIT.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/com/ccsw/ludoteca/client/ClientLoanHelperService.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/com/ccsw/ludoteca/client/ClientRepository.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/com/ccsw/ludoteca/client/ClientService.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/com/ccsw/ludoteca/client/ClientServiceImpl.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/com/ccsw/ludoteca/client/ClientSpecification.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/com/ccsw/ludoteca/client/ClientTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/com/ccsw/ludoteca/client/model/Client.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/com/ccsw/ludoteca/client/model/ClientDto.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/com/ccsw/ludoteca/client/model/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/com/ccsw/ludoteca/client/model/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/com/ccsw/ludoteca/client/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/com/ccsw/ludoteca/client/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/com/ccsw/ludoteca/common/criteria/SearchCriteria.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/com/ccsw/ludoteca/common/criteria/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/com/ccsw/ludoteca/common/criteria/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/com/ccsw/ludoteca/common/exception/CommonException.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/com/ccsw/ludoteca/common/exception/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/com/ccsw/ludoteca/common/exception/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/com/ccsw/ludoteca/common/pagination/PageableRequest.SortRequest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/com/ccsw/ludoteca/common/pagination/PageableRequest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/com/ccsw/ludoteca/common/pagination/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/com/ccsw/ludoteca/common/pagination/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/com/ccsw/ludoteca/config/ModelMapperConfig.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/com/ccsw/ludoteca/config/ResponsePage.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/com/ccsw/ludoteca/config/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/com/ccsw/ludoteca/config/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/com/ccsw/ludoteca/dto/StatusResponse.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/com/ccsw/ludoteca/dto/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/com/ccsw/ludoteca/dto/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/com/ccsw/ludoteca/game/GameController.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/com/ccsw/ludoteca/game/GameIT.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/com/ccsw/ludoteca/game/GameRepository.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/com/ccsw/ludoteca/game/GameService.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/com/ccsw/ludoteca/game/GameServiceImpl.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/com/ccsw/ludoteca/game/GameSpecification.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/com/ccsw/ludoteca/game/model/Game.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/com/ccsw/ludoteca/game/model/GameDto.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/com/ccsw/ludoteca/game/model/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/com/ccsw/ludoteca/game/model/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/com/ccsw/ludoteca/game/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/com/ccsw/ludoteca/game/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/com/ccsw/ludoteca/loan/LoanController.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/com/ccsw/ludoteca/loan/LoanException.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/com/ccsw/ludoteca/loan/LoanIT.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/com/ccsw/ludoteca/loan/LoanRepository.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/com/ccsw/ludoteca/loan/LoanService.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/com/ccsw/ludoteca/loan/LoanServiceImpl.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/com/ccsw/ludoteca/loan/LoanSpecification.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/com/ccsw/ludoteca/loan/LoanTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/com/ccsw/ludoteca/loan/model/Loan.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/com/ccsw/ludoteca/loan/model/LoanDto.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/com/ccsw/ludoteca/loan/model/LoanSearchDto.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/com/ccsw/ludoteca/loan/model/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/com/ccsw/ludoteca/loan/model/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/com/ccsw/ludoteca/loan/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/com/ccsw/ludoteca/loan/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/com/ccsw/ludoteca/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/com/ccsw/ludoteca/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/constant-values.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/copy.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/element-list" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/help-doc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/index-files/index-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/index-files/index-10.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/index-files/index-11.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/index-files/index-12.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/index-files/index-13.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/index-files/index-14.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/index-files/index-15.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/index-files/index-16.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/index-files/index-17.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/index-files/index-18.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/index-files/index-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/index-files/index-3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/index-files/index-4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/index-files/index-5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/index-files/index-6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/index-files/index-7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/index-files/index-8.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/index-files/index-9.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/legal/ADDITIONAL_LICENSE_INFO" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/legal/ASSEMBLY_EXCEPTION" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/legal/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/legal/jquery.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/legal/jqueryUI.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/link.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/member-search-index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/module-search-index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/overview-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/overview-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/package-search-index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/resources/glass.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/resources/x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/script-dir/jquery-3.6.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/script-dir/jquery-ui.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/script-dir/jquery-ui.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/search-page.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/search.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/search.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/serialized-form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/stylesheet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/tag-search-index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docs/type-search-index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/ccsw/ludoteca/LudotecaApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/ccsw/ludoteca/author/AuthorController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/ccsw/ludoteca/author/AuthorException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/ccsw/ludoteca/author/AuthorGameHelperService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/ccsw/ludoteca/author/AuthorRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/ccsw/ludoteca/author/AuthorService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/ccsw/ludoteca/author/AuthorServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/ccsw/ludoteca/author/model/Author.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/ccsw/ludoteca/author/model/AuthorDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/ccsw/ludoteca/author/model/AuthorSearchDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/ccsw/ludoteca/category/CategoryController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/ccsw/ludoteca/category/CategoryException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/ccsw/ludoteca/category/CategoryGameHelperService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/ccsw/ludoteca/category/CategoryRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/ccsw/ludoteca/category/CategoryService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/ccsw/ludoteca/category/CategoryServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/ccsw/ludoteca/category/model/Category.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/ccsw/ludoteca/category/model/CategoryDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/ccsw/ludoteca/client/ClientController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/ccsw/ludoteca/client/ClientException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/ccsw/ludoteca/client/ClientLoanHelperService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/ccsw/ludoteca/client/ClientRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/ccsw/ludoteca/client/ClientService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/ccsw/ludoteca/client/ClientServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/ccsw/ludoteca/client/ClientSpecification.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/ccsw/ludoteca/client/model/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/ccsw/ludoteca/client/model/ClientDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/ccsw/ludoteca/common/criteria/SearchCriteria.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/ccsw/ludoteca/common/pagination/PageableRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/ccsw/ludoteca/config/ModelMapperConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/ccsw/ludoteca/config/ResponsePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/ccsw/ludoteca/dto/StatusResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/ccsw/ludoteca/exception/CommonErrorResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/ccsw/ludoteca/exception/GlobalExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/ccsw/ludoteca/game/GameController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/ccsw/ludoteca/game/GameRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/ccsw/ludoteca/game/GameService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/ccsw/ludoteca/game/GameServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/ccsw/ludoteca/game/GameSpecification.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/ccsw/ludoteca/game/model/Game.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/ccsw/ludoteca/game/model/GameDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/ccsw/ludoteca/game/model/GameException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/ccsw/ludoteca/loan/LoanController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/ccsw/ludoteca/loan/LoanException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/ccsw/ludoteca/loan/LoanRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/ccsw/ludoteca/loan/LoanService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/ccsw/ludoteca/loan/LoanServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/ccsw/ludoteca/loan/LoanSpecification.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/ccsw/ludoteca/loan/model/Loan.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/ccsw/ludoteca/loan/model/LoanDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/ccsw/ludoteca/loan/model/LoanDtoProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/ccsw/ludoteca/loan/model/LoanSearchDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/resources/data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/test/java/com/ccsw/ludoteca/FilmotecaApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/test/java/com/ccsw/ludoteca/author/AuthorIT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/test/java/com/ccsw/ludoteca/author/AuthorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/test/java/com/ccsw/ludoteca/category/CategoryIT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/test/java/com/ccsw/ludoteca/category/CategoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/test/java/com/ccsw/ludoteca/client/ClientIT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/test/java/com/ccsw/ludoteca/client/ClientTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/test/java/com/ccsw/ludoteca/game/GameIT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/test/java/com/ccsw/ludoteca/loan/LoanIT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/test/java/com/ccsw/ludoteca/loan/LoanTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/test/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/consejos app.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/allclasses-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/allclasses-index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/allpackages-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/allpackages-index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/LudotecaApplication.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/LudotecaApplication.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/author/AuthorController.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/author/AuthorController.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/author/AuthorException.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/author/AuthorException.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/author/AuthorGameHelperService.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/author/AuthorGameHelperService.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/author/AuthorIT.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/author/AuthorIT.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/author/AuthorRepository.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/author/AuthorRepository.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/author/AuthorService.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/author/AuthorService.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/author/AuthorServiceImpl.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/author/AuthorServiceImpl.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/author/AuthorTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/author/AuthorTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/author/model/Author.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/author/model/Author.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/author/model/AuthorDto.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/author/model/AuthorDto.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/author/model/AuthorSearchDto.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/author/model/AuthorSearchDto.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/author/model/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/author/model/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/author/model/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/author/model/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/author/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/author/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/author/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/author/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/category/CategoryController.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/category/CategoryController.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/category/CategoryException.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/category/CategoryException.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/category/CategoryGameHelperService.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/category/CategoryGameHelperService.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/category/CategoryIT.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/category/CategoryIT.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/category/CategoryRepository.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/category/CategoryRepository.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/category/CategoryService.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/category/CategoryService.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/category/CategoryServiceImpl.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/category/CategoryServiceImpl.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/category/CategoryTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/category/CategoryTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/category/model/Category.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/category/model/Category.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/category/model/CategoryDto.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/category/model/CategoryDto.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/category/model/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/category/model/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/category/model/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/category/model/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/category/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/category/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/category/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/category/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/client/ClientController.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/client/ClientController.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/client/ClientException.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/client/ClientException.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/client/ClientIT.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/client/ClientIT.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/client/ClientLoanHelperService.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/client/ClientLoanHelperService.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/client/ClientRepository.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/client/ClientRepository.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/client/ClientService.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/client/ClientService.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/client/ClientServiceImpl.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/client/ClientServiceImpl.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/client/ClientSpecification.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/client/ClientSpecification.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/client/ClientTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/client/ClientTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/client/model/Client.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/client/model/Client.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/client/model/ClientDto.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/client/model/ClientDto.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/client/model/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/client/model/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/client/model/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/client/model/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/client/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/client/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/client/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/client/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/common/criteria/SearchCriteria.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/common/criteria/SearchCriteria.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/common/criteria/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/common/criteria/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/common/criteria/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/common/criteria/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/common/exception/CommonException.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/common/exception/CommonException.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/common/exception/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/common/exception/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/common/exception/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/common/exception/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/common/pagination/PageableRequest.SortRequest.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/common/pagination/PageableRequest.SortRequest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/common/pagination/PageableRequest.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/common/pagination/PageableRequest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/common/pagination/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/common/pagination/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/common/pagination/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/common/pagination/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/config/ModelMapperConfig.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/config/ModelMapperConfig.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/config/ResponsePage.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/config/ResponsePage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/config/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/config/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/config/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/config/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/dto/StatusResponse.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/dto/StatusResponse.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/dto/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/dto/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/dto/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/dto/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/game/GameController.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/game/GameController.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/game/GameIT.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/game/GameIT.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/game/GameRepository.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/game/GameRepository.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/game/GameService.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/game/GameService.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/game/GameServiceImpl.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/game/GameServiceImpl.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/game/GameSpecification.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/game/GameSpecification.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/game/model/Game.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/game/model/Game.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/game/model/GameDto.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/game/model/GameDto.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/game/model/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/game/model/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/game/model/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/game/model/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/game/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/game/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/game/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/game/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/loan/LoanController.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/loan/LoanController.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/loan/LoanException.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/loan/LoanException.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/loan/LoanIT.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/loan/LoanIT.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/loan/LoanRepository.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/loan/LoanRepository.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/loan/LoanService.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/loan/LoanService.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/loan/LoanServiceImpl.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/loan/LoanServiceImpl.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/loan/LoanSpecification.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/loan/LoanSpecification.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/loan/LoanTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/loan/LoanTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/loan/model/Loan.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/loan/model/Loan.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/loan/model/LoanDto.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/loan/model/LoanDto.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/loan/model/LoanSearchDto.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/loan/model/LoanSearchDto.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/loan/model/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/loan/model/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/loan/model/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/loan/model/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/loan/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/loan/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/loan/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/loan/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/com/ccsw/ludoteca/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/constant-values.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/constant-values.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/element-list" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/element-list" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/index-files/index-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/index-files/index-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/index-files/index-10.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/index-files/index-10.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/index-files/index-11.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/index-files/index-11.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/index-files/index-12.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/index-files/index-12.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/index-files/index-13.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/index-files/index-13.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/index-files/index-14.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/index-files/index-14.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/index-files/index-15.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/index-files/index-15.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/index-files/index-16.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/index-files/index-16.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/index-files/index-17.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/index-files/index-17.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/index-files/index-18.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/index-files/index-18.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/index-files/index-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/index-files/index-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/index-files/index-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/index-files/index-3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/index-files/index-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/index-files/index-4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/index-files/index-5.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/index-files/index-5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/index-files/index-6.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/index-files/index-6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/index-files/index-7.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/index-files/index-7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/index-files/index-8.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/index-files/index-8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/index-files/index-9.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/index-files/index-9.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/overview-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/docs/serialized-form.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/docs/serialized-form.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;A50tt&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/A50tt/Ludoteca&quot;,
+    &quot;accountId&quot;: &quot;d2563d6b-bdd0-4228-af86-9b1d549c999a&quot;
+  }
+}</component>
+  <component name="OptimizeOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2zdaAe5MDpdfuEtoi6kIkX4Iy9F" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.CategoryMicroservice.executor": "Run",
+    "Application.LudotecaApplication.executor": "Run",
+    "Application.TutorialCategory.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/asarraol/Desktop/Cursos/Ludoteca - Microservicios/category",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="TutorialCategory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ccsw.tutorialcategory.TutorialCategory" />
+      <module name="tutorial-category" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ccsw.tutorialcategory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TutorialCategory" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e7ee5dc9-0af8-48a6-93d1-7a617400e1e9" name="Changes" comment="" />
+      <created>1749814066587</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1749814066587</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/category" />
+    </ignored-roots>
+  </component>
+</project>
