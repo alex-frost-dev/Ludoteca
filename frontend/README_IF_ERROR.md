@@ -1,3 +1,3 @@
-Si al descargar los nodes da error, debido a las limitaciones de intalación de software en mi máquina, es necesario utilizar el comando --legacy-peer:
+Si al descargar 'npm install' da error, debido a las limitaciones de instalación de software en mi máquina de las prácticas, es necesario utilizar el comando --legacy-peer-deps:
 
 npm install --legacy-peer-deps
