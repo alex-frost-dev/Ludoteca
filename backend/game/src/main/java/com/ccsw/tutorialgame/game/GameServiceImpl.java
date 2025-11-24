@@ -52,8 +52,8 @@ public class GameServiceImpl implements GameService {
 
         BeanUtils.copyProperties(dto, game, "id");
 
-        game.setIdAuthor(dto.getIdAuthor());
-        game.setIdCategory(dto.getIdCategory());
+        game.setIdAuthor(dto.getAuthor().getId());
+        game.setIdCategory(dto.getCategory().getId());
 
         this.gameRepository.save(game);
     }

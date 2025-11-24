@@ -13,7 +13,6 @@ import java.util.stream.Collectors;
 
 /**
  * @author ccsw
- *
  */
 @Tag(name = "Category", description = "API of Category")
 @RequestMapping(value = "/category")
@@ -36,19 +35,24 @@ public class CategoryController {
     @RequestMapping(path = "", method = RequestMethod.GET)
     public List<CategoryDto> findAll() {
 
-        List<Category> categories = this.categoryService.findAll();
+        return categoryService.findAll().stream().map(category -> {
+            CategoryDto categoryDto = new CategoryDto();
 
-        return categories.stream().map(e -> mapper.map(e, CategoryDto.class)).collect(Collectors.toList());
+            categoryDto.setId(category.getId());
+            categoryDto.setName(category.getName());
+
+            return categoryDto;
+        }).collect(Collectors.toList());
     }
 
     /**
      * Método para crear o actualizar una {@link Category}
      *
-     * @param id PK de la entidad
+     * @param id  PK de la entidad
      * @param dto datos de la entidad
      */
     @Operation(summary = "Save or Update", description = "Method that saves or updates a Category")
-    @RequestMapping(path = { "", "/{id}" }, method = RequestMethod.PUT)
+    @RequestMapping(path = {"", "/{id}"}, method = RequestMethod.PUT)
     public void save(@PathVariable(name = "id", required = false) Long id, @RequestBody CategoryDto dto) {
 
         this.categoryService.save(id, dto);
